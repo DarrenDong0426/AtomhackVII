@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 2em;
+  font-size: 30px;
+  color: #FFFFFF;
+  background-image: url("https://cdn.glitch.com/0ba0a101-3619-4eed-b83c-629b083c2061%2F190504-bronx-science.png?v=1616272623973");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+div {
+  background-color: rgba(34,139,34,0.8);
+  width: 1250px;
+  border: 15px solid rgba(238, 238, 0, 0.9);
+  border-radius: 10px;
+  padding: 40px;
+  margin: 10px; 
+}
+
+h1 {
+  font-family: "Verdana";
+  font-style: italic;
+  color: #FFD700;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 90px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+}
+
+
+button {
+  font-family: Abel; 
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4CAFFF;
+  border-radius: 15px;
+  box-shadow: 0 30px #000000;
+  height: 100px;
+  width: 300px;
+  margin-right: 50px;
+}
+
+button:hover {background-color: #E3E321}
+
+button:active {
+  background-color: #E3E321;
+  box-shadow: 0 10px #000000;
+  transform: translateY(4px);
+}
+
+
+.button2 {
+  border-radius: 6px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  color: #0148ff;
+  cursor: pointer;
+  background-color: #8CFF85;
+  border: 3px solid #f44336;
+  height: 50px;
+  width: 150px;
+  box-shadow: 0 0px;
+  position:absolute;
+  top:60px;
+  right:0px;
+  padding: 0px 0px;
+  opacity: 0.8;
+}
+
+.button2:hover {
+  opacity: 1;
+  background-color: #E3E321;
+}
+
+.button2:active {
+  box-shadow:0 0px;
+  transform: none;
+}
